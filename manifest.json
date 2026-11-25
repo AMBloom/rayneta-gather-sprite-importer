@@ -1,0 +1,4752 @@
+{
+  "schema_version": "1.0",
+  "target_gather_version": "1.39.2",
+  "grid_unit_px": 32,
+  "assets": [
+    {
+      "id": "mega_pack_free-f5be98f2",
+      "pack_name": "MegaPackFree",
+      "source_type": "local_seed",
+      "source_url": "local://MegaPackFree",
+      "license": "local_unverified",
+      "author": "unknown",
+      "acquired_at": "2026-11-24T18:50:02.701130+00:00",
+      "sha256": "f5be98f2e1ae4741c64e657dc4403f232a8e8da0f146cb747c57b8a81a0e4c79",
+      "raw_files": [
+        {
+          "path": "local_packs/mega_pack_free/CatMegaFree/CatRoomFree/Furnitures.png",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "path": "local_packs/mega_pack_free/CatMegaFree/CatUIFree/free.png",
+          "width": 256,
+          "height": 128
+        },
+        {
+          "path": "local_packs/mega_pack_free/CatMegaFree/MochiFree/Box3.png",
+          "width": 128,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/CatMegaFree/MochiFree/Idle.png",
+          "width": 320,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/CatMegaFree/PochiFree/FreeSprites.png",
+          "width": 256,
+          "height": 435
+        },
+        {
+          "path": "local_packs/mega_pack_free/CatMegaFree/SleepingCatFree/sleepingcat1.png",
+          "width": 384,
+          "height": 64
+        },
+        {
+          "path": "local_packs/mega_pack_free/CatMegaFree/SleepingCatFree/sleepingcat2.png",
+          "width": 384,
+          "height": 64
+        },
+        {
+          "path": "local_packs/mega_pack_free/CatMegaFree/SleepingCatFree/sleepingcat3.png",
+          "width": 384,
+          "height": 64
+        },
+        {
+          "path": "local_packs/mega_pack_free/CatMegaFree/SleepingCatFree/sleepingcat4.png",
+          "width": 384,
+          "height": 64
+        },
+        {
+          "path": "local_packs/mega_pack_free/CatMegaFree/SleepingCatFree/sleepingcat5.png",
+          "width": 384,
+          "height": 64
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeAnimalPack/AnimalStuffs/DogBalls.png",
+          "width": 120,
+          "height": 64
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeAnimalPack/AnimalStuffs/DogMeat.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeAnimalPack/AnimalStuffs/DogToys2.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeAnimalPack/AnimalStuffs/DogVitamins.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeAnimalPack/BirdFly.png",
+          "width": 128,
+          "height": 16
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeAnimalPack/FrogIdle.png",
+          "width": 128,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeAnimalPack/GoldenBarking.png",
+          "width": 704,
+          "height": 64
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeAnimalPack/JumpCattt.png",
+          "width": 416,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeAnimalPack/Jumping.png",
+          "width": 352,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeAnimalPack/PigIdle.png",
+          "width": 256,
+          "height": 64
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeAnimalPack/SleepDog.png",
+          "width": 512,
+          "height": 64
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/FreePack.png",
+          "width": 512,
+          "height": 384
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_00_00.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_00_01.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_00_02.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_00_03.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_01_00.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_01_01.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_01_02.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_01_03.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_01_04.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_01_05.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_01_06.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_01_07.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_01_08.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_02_00.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_02_01.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_02_02.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_02_03.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_02_04.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_02_05.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_02_06.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_02_07.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_02_08.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_02_09.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_02_10.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_02_11.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_02_13.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_02_14.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_02_15.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_03_00.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_03_01.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_03_02.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_03_03.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_03_04.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_03_05.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_03_06.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_03_07.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_03_08.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_03_09.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_03_10.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_03_11.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_03_13.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_03_14.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_03_15.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_04_01.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_04_02.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_05_00.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_05_01.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_05_02.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_05_13.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_05_14.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_05_15.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_06_00.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_06_01.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_06_02.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_06_04.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_06_05.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_06_06.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_06_07.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_06_08.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_06_09.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_06_12.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_06_13.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_06_14.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_06_15.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_07_00.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_07_01.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_07_02.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_07_04.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_07_05.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_07_06.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_07_07.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_07_08.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_07_09.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_07_12.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_07_13.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_07_14.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_07_15.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_08_00.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_08_01.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_08_03.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_08_04.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_08_06.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_08_07.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_08_09.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_08_10.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_08_12.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_08_13.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_08_14.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_09_00.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_09_01.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_09_03.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_09_04.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_09_06.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_09_07.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_09_09.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_09_10.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_09_11.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_09_12.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_09_13.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_09_14.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_09_15.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_10_00.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_10_01.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_10_03.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_10_04.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_10_06.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_10_07.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_10_09.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_10_10.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_10_11.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_10_12.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_10_13.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_10_14.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_10_15.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_11_00.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_11_01.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_11_03.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_11_04.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_11_06.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_11_07.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_11_09.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_11_10.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_11_12.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_11_13.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_11_14.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/mega_pack_free/FreeEnvironment/extracted_sprites/sprite_11_15.png",
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "status": "staged_for_upload",
+      "output_dir": "Build_Tool_Uploads/megapackfree",
+      "normalized_counts": {
+        "build_tool_ready": 291,
+        "needs_alpha_review": 9,
+        "animation_frames": 56,
+        "oversized_rejected": 0,
+        "duplicates_skipped": 45,
+        "raw_files_skipped": 1
+      },
+      "normalized_at": "2026-11-24T18:58:56.982302+00:00",
+      "curated_count": 291,
+      "staged_at": "2026-11-25T00:30:11.703536+00:00"
+    },
+    {
+      "id": "pixel_art_icon_pack_rpg-84d2953c",
+      "pack_name": "Pixel Art Icon Pack - RPG",
+      "source_type": "local_seed",
+      "source_url": "local://Pixel Art Icon Pack - RPG",
+      "license": "local_unverified",
+      "author": "unknown",
+      "acquired_at": "2026-11-24T18:50:02.744643+00:00",
+      "sha256": "84d2953cfafd1db3c8f7e169b95a06df6cab4a38d268b0359929f21601160216",
+      "raw_files": [
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Equipment/Bag.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Equipment/Belt.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Equipment/Helm.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Equipment/Iron Armor.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Equipment/Iron Boot.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Equipment/Iron Helmet.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Equipment/Leather Armor.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Equipment/Leather Boot.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Equipment/Leather Helmet.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Equipment/Wizard Hat.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Equipment/Wooden Armor.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Food/Apple.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Food/Beer.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Food/Bread.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Food/Cheese.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Food/Fish Steak.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Food/Green Apple.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Food/Ham.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Food/Meat.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Food/Mushroom.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Food/Wine 2.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Food/Wine.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Material/Fabric.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Material/Leather.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Material/Paper.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Material/Rope.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Material/String.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Material/Wood Log.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Material/Wooden Plank.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Material/Wool.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Misc/Book 2.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Misc/Book 3.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Misc/Book.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Misc/Candle.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Misc/Chest.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Misc/Copper Coin.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Misc/Crate.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Misc/Envolop.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Misc/Gear.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Misc/Golden Coin.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Misc/Golden Key.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Misc/Heart.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Misc/Iron Key.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Misc/Lantern.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Misc/Map.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Misc/Rune Stone.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Misc/Scroll.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Misc/Silver Coin.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Misc/Silver Key.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Monster Part/Bone.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Monster Part/Egg.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Monster Part/Feather.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Monster Part/Monster Egg.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Monster Part/Monster Eye.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Monster Part/Monster Meat.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Monster Part/Skull.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Monster Part/Slime Gel.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Ore & Gem/Coal.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Ore & Gem/Copper Ingot.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Ore & Gem/Copper Nugget.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Ore & Gem/Crystal.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Ore & Gem/Cut Emerald.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Ore & Gem/Cut Ruby.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Ore & Gem/Cut Sapphire.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Ore & Gem/Cut Topaz.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Ore & Gem/Diamond.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Ore & Gem/Emerald.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Ore & Gem/Gold Nugget.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Ore & Gem/Golden Ingot.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Ore & Gem/Obsidian.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Ore & Gem/Pearl.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Ore & Gem/Ruby.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Ore & Gem/Sapphire.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Ore & Gem/Silver Ingot.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Ore & Gem/Silver Nugget.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Ore & Gem/Topaz.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Potion/Blue Potion 2.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Potion/Blue Potion 3.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Potion/Blue Potion.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Potion/Empty Bottle.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Potion/Green Potion 2.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Potion/Green Potion 3.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Potion/Green Potion.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Potion/Red Potion 2.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Potion/Red Potion 3.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Potion/Red Potion.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Potion/Water Bottle.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Weapon & Tool/Arrow.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Weapon & Tool/Axe.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Weapon & Tool/Bow.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Weapon & Tool/Emerald Staff.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Weapon & Tool/Golden Sword.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Weapon & Tool/Hammer.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Weapon & Tool/Iron Shield.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Weapon & Tool/Iron Sword.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Weapon & Tool/Knife.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Weapon & Tool/Magic Wand.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Weapon & Tool/Pickaxe.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Weapon & Tool/Ruby Staff.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Weapon & Tool/Sapphire Staff.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Weapon & Tool/Shovel.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Weapon & Tool/Silver Sword.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Weapon & Tool/Topaz Staff.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Weapon & Tool/Torch.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Weapon & Tool/Wooden Shield.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Weapon & Tool/Wooden Staff.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "local_packs/pixel_art_icon_pack_rpg/Weapon & Tool/Wooden Sword.png",
+          "width": 32,
+          "height": 32
+        }
+      ],
+      "status": "staged_for_upload",
+      "output_dir": "Build_Tool_Uploads/pixel_art_icon_pack_rpg",
+      "normalized_counts": {
+        "build_tool_ready": 107,
+        "needs_alpha_review": 0,
+        "animation_frames": 0,
+        "oversized_rejected": 0,
+        "duplicates_skipped": 0,
+        "raw_files_skipped": 0
+      },
+      "normalized_at": "2026-11-24T18:58:57.023727+00:00",
+      "curated_count": 107,
+      "staged_at": "2026-11-25T00:30:11.703536+00:00"
+    },
+    {
+      "id": "pixel_art_top_down_basic_v1_2_3-6077c583",
+      "pack_name": "Pixel Art Top Down - Basic v1.2.3",
+      "source_type": "local_seed",
+      "source_url": "local://Pixel Art Top Down - Basic v1.2.3",
+      "license": "local_unverified",
+      "author": "unknown",
+      "acquired_at": "2026-11-24T18:50:02.750912+00:00",
+      "sha256": "6077c583fba0f84c7fe427c54d50fc2e9d9e4468f877980fda62c1f20dbbadc3",
+      "raw_files": [
+        {
+          "path": "local_packs/pixel_art_top_down_basic_v1_2_3/Texture/Extra/TX Plant with Shadow.png",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "path": "local_packs/pixel_art_top_down_basic_v1_2_3/Texture/Extra/TX Props with Shadow.png",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "path": "local_packs/pixel_art_top_down_basic_v1_2_3/Texture/TX Plant.png",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "path": "local_packs/pixel_art_top_down_basic_v1_2_3/Texture/TX Player.png",
+          "width": 128,
+          "height": 128
+        },
+        {
+          "path": "local_packs/pixel_art_top_down_basic_v1_2_3/Texture/TX Props.png",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "path": "local_packs/pixel_art_top_down_basic_v1_2_3/Texture/TX Shadow Plant.png",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "path": "local_packs/pixel_art_top_down_basic_v1_2_3/Texture/TX Shadow.png",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "path": "local_packs/pixel_art_top_down_basic_v1_2_3/Texture/TX Struct.png",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "path": "local_packs/pixel_art_top_down_basic_v1_2_3/Texture/TX Tileset Grass.png",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "path": "local_packs/pixel_art_top_down_basic_v1_2_3/Texture/TX Tileset Stone Ground.png",
+          "width": 256,
+          "height": 256
+        },
+        {
+          "path": "local_packs/pixel_art_top_down_basic_v1_2_3/Texture/TX Tileset Wall.png",
+          "width": 512,
+          "height": 512
+        }
+      ],
+      "status": "staged_for_upload",
+      "output_dir": "Build_Tool_Uploads/pixel_art_top_down_basic_v1_2_3",
+      "normalized_counts": {
+        "build_tool_ready": 187,
+        "needs_alpha_review": 121,
+        "animation_frames": 0,
+        "oversized_rejected": 0,
+        "duplicates_skipped": 22,
+        "raw_files_skipped": 2
+      },
+      "normalized_at": "2026-11-24T18:58:57.734700+00:00",
+      "curated_count": 187,
+      "staged_at": "2026-11-25T00:30:11.703536+00:00"
+    },
+    {
+      "id": "topdown_shooter-80fed912",
+      "pack_name": "topdown-shooter",
+      "source_type": "opengameart",
+      "source_url": "https://opengameart.org/content/topdown-shooter",
+      "license": "CC0",
+      "author": "Kenney",
+      "acquired_at": "2026-11-24T18:50:06.006391+00:00",
+      "sha256": "80fed912f6b5287bfb5fe24b5830fc49e9a1cc9f004580766658a02f5b113619",
+      "raw_files": [
+        {
+          "path": "topdown_shooter_80fed912/PNG/Hitman 1/hitman1_gun.png",
+          "width": 49,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Hitman 1/hitman1_hold.png",
+          "width": 35,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Hitman 1/hitman1_machine.png",
+          "width": 49,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Hitman 1/hitman1_reload.png",
+          "width": 39,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Hitman 1/hitman1_silencer.png",
+          "width": 54,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Hitman 1/hitman1_stand.png",
+          "width": 33,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Man Blue/manBlue_gun.png",
+          "width": 49,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Man Blue/manBlue_hold.png",
+          "width": 35,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Man Blue/manBlue_machine.png",
+          "width": 49,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Man Blue/manBlue_reload.png",
+          "width": 39,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Man Blue/manBlue_silencer.png",
+          "width": 54,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Man Blue/manBlue_stand.png",
+          "width": 33,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Man Brown/manBrown_gun.png",
+          "width": 49,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Man Brown/manBrown_hold.png",
+          "width": 35,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Man Brown/manBrown_machine.png",
+          "width": 49,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Man Brown/manBrown_reload.png",
+          "width": 39,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Man Brown/manBrown_silencer.png",
+          "width": 54,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Man Brown/manBrown_stand.png",
+          "width": 33,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Man Old/manOld_gun.png",
+          "width": 49,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Man Old/manOld_hold.png",
+          "width": 35,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Man Old/manOld_machine.png",
+          "width": 49,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Man Old/manOld_reload.png",
+          "width": 39,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Man Old/manOld_silencer.png",
+          "width": 54,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Man Old/manOld_stand.png",
+          "width": 33,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Robot 1/robot1_gun.png",
+          "width": 49,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Robot 1/robot1_hold.png",
+          "width": 35,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Robot 1/robot1_machine.png",
+          "width": 49,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Robot 1/robot1_reload.png",
+          "width": 39,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Robot 1/robot1_silencer.png",
+          "width": 54,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Robot 1/robot1_stand.png",
+          "width": 33,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Soldier 1/soldier1_gun.png",
+          "width": 52,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Soldier 1/soldier1_hold.png",
+          "width": 38,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Soldier 1/soldier1_machine.png",
+          "width": 52,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Soldier 1/soldier1_reload.png",
+          "width": 42,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Soldier 1/soldier1_silencer.png",
+          "width": 57,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Soldier 1/soldier1_stand.png",
+          "width": 36,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Survivor 1/survivor1_gun.png",
+          "width": 51,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Survivor 1/survivor1_hold.png",
+          "width": 37,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Survivor 1/survivor1_machine.png",
+          "width": 51,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Survivor 1/survivor1_reload.png",
+          "width": 41,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Survivor 1/survivor1_silencer.png",
+          "width": 56,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Survivor 1/survivor1_stand.png",
+          "width": 35,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_01.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_02.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_03.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_04.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_05.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_06.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_07.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_08.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_09.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_10.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_100.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_101.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_102.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_103.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_104.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_105.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_106.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_107.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_109.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_11.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_110.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_111.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_112.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_113.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_114.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_115.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_116.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_117.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_118.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_119.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_12.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_120.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_121.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_122.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_123.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_124.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_125.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_126.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_127.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_128.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_129.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_13.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_130.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_131.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_132.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_133.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_134.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_136.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_137.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_138.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_139.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_14.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_140.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_141.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_142.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_143.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_144.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_145.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_146.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_147.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_148.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_149.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_15.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_150.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_151.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_152.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_153.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_154.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_155.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_156.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_157.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_158.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_159.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_16.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_160.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_161.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_163.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_164.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_165.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_166.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_167.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_168.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_169.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_17.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_170.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_171.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_172.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_173.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_174.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_175.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_176.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_177.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_178.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_179.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_18.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_180.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_181.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_182.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_183.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_184.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_185.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_186.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_187.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_188.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_19.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_190.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_191.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_192.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_193.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_194.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_195.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_196.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_197.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_198.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_199.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_20.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_200.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_201.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_202.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_203.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_204.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_205.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_206.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_207.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_208.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_209.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_21.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_210.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_211.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_212.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_213.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_214.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_215.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_217.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_218.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_219.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_22.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_220.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_221.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_222.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_223.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_224.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_225.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_226.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_227.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_228.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_229.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_23.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_230.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_231.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_232.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_233.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_234.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_235.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_236.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_237.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_238.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_239.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_24.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_240.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_241.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_242.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_243.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_244.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_245.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_246.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_247.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_248.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_249.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_25.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_250.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_251.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_252.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_253.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_254.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_255.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_256.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_257.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_258.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_259.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_26.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_260.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_261.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_262.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_263.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_264.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_265.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_266.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_267.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_268.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_269.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_270.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_271.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_272.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_273.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_274.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_275.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_276.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_277.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_278.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_279.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_28.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_280.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_281.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_282.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_283.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_284.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_285.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_286.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_287.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_288.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_289.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_29.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_290.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_291.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_292.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_293.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_294.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_295.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_296.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_297.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_298.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_299.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_30.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_300.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_301.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_302.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_303.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_304.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_305.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_306.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_307.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_308.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_309.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_31.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_310.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_311.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_312.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_313.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_314.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_315.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_316.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_317.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_318.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_319.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_32.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_320.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_321.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_322.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_323.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_324.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_325.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_326.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_327.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_328.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_329.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_33.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_330.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_331.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_332.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_333.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_334.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_335.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_336.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_337.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_338.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_339.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_34.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_340.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_341.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_342.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_343.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_344.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_345.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_346.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_347.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_348.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_349.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_35.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_350.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_351.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_352.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_353.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_354.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_355.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_356.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_357.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_358.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_359.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_36.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_360.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_361.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_362.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_363.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_364.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_365.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_366.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_367.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_368.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_369.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_37.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_370.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_371.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_372.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_373.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_374.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_375.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_376.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_377.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_378.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_379.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_38.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_380.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_381.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_382.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_383.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_384.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_385.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_386.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_387.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_388.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_389.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_39.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_390.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_391.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_392.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_393.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_394.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_395.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_396.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_397.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_398.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_399.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_40.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_400.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_401.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_402.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_403.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_404.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_405.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_406.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_407.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_408.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_409.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_41.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_410.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_411.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_412.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_413.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_414.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_415.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_416.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_417.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_418.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_419.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_42.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_420.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_421.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_422.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_423.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_424.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_425.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_426.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_427.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_428.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_429.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_43.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_430.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_431.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_432.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_433.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_434.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_435.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_436.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_437.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_438.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_439.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_44.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_440.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_441.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_442.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_443.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_444.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_445.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_446.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_447.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_448.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_449.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_45.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_450.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_451.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_452.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_453.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_454.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_455.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_456.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_457.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_46.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_460.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_461.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_462.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_463.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_464.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_465.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_466.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_467.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_468.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_469.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_47.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_470.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_471.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_472.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_473.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_474.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_475.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_476.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_477.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_478.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_479.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_48.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_480.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_481.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_482.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_483.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_484.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_487.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_488.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_489.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_49.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_490.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_491.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_492.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_493.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_494.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_495.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_496.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_497.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_498.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_499.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_50.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_500.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_501.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_502.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_503.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_504.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_505.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_506.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_507.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_508.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_509.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_51.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_510.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_511.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_514.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_515.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_516.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_517.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_518.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_519.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_52.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_520.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_521.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_522.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_523.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_524.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_525.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_526.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_527.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_528.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_529.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_53.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_530.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_531.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_532.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_533.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_534.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_535.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_536.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_537.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_538.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_55.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_56.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_57.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_58.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_59.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_60.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_61.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_62.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_63.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_64.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_65.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_66.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_67.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_68.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_69.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_70.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_71.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_72.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_73.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_74.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_75.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_76.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_77.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_78.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_79.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_80.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_82.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_83.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_84.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_85.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_86.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_87.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_88.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_89.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_90.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_91.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_92.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_93.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_94.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_95.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_96.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_97.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_98.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Tiles/tile_99.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Woman Green/womanGreen_gun.png",
+          "width": 52,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Woman Green/womanGreen_hold.png",
+          "width": 38,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Woman Green/womanGreen_machine.png",
+          "width": 52,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Woman Green/womanGreen_reload.png",
+          "width": 42,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Woman Green/womanGreen_silencer.png",
+          "width": 57,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Woman Green/womanGreen_stand.png",
+          "width": 36,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Zombie 1/zoimbie1_gun.png",
+          "width": 49,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Zombie 1/zoimbie1_hold.png",
+          "width": 35,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Zombie 1/zoimbie1_machine.png",
+          "width": 49,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Zombie 1/zoimbie1_reload.png",
+          "width": 39,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Zombie 1/zoimbie1_silencer.png",
+          "width": 54,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/Zombie 1/zoimbie1_stand.png",
+          "width": 33,
+          "height": 43
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/weapon_gun.png",
+          "width": 19,
+          "height": 10
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/weapon_machine.png",
+          "width": 33,
+          "height": 10
+        },
+        {
+          "path": "topdown_shooter_80fed912/PNG/weapon_silencer.png",
+          "width": 25,
+          "height": 10
+        },
+        {
+          "path": "topdown_shooter_80fed912/Preview.png",
+          "width": 918,
+          "height": 515
+        },
+        {
+          "path": "topdown_shooter_80fed912/Sample.png",
+          "width": 918,
+          "height": 515
+        },
+        {
+          "path": "topdown_shooter_80fed912/Sample_26.png",
+          "width": 918,
+          "height": 515
+        },
+        {
+          "path": "topdown_shooter_80fed912/Spritesheet/spritesheet_characters.png",
+          "width": 512,
+          "height": 256
+        },
+        {
+          "path": "topdown_shooter_80fed912/Spritesheet/spritesheet_tiles.png",
+          "width": 1988,
+          "height": 1470
+        },
+        {
+          "path": "topdown_shooter_80fed912/Tilesheet/tilesheet_complete.png",
+          "width": 1728,
+          "height": 1280
+        },
+        {
+          "path": "topdown_shooter_80fed912/Tilesheet/tilesheet_complete_2X.png",
+          "width": 3456,
+          "height": 2560
+        },
+        {
+          "path": "topdown_shooter_80fed912/preview_1002.png",
+          "width": 918,
+          "height": 515
+        }
+      ],
+      "status": "staged_for_upload",
+      "output_dir": "Build_Tool_Uploads/topdown_shooter",
+      "normalized_counts": {
+        "build_tool_ready": 199,
+        "needs_alpha_review": 353,
+        "animation_frames": 0,
+        "oversized_rejected": 0,
+        "duplicates_skipped": 29,
+        "raw_files_skipped": 8
+      },
+      "normalized_at": "2026-11-24T18:58:58.083133+00:00",
+      "curated_count": 199,
+      "staged_at": "2026-11-25T00:30:11.703536+00:00"
+    },
+    {
+      "id": "2d_top_down_office_characters-0e8fff82",
+      "pack_name": "2d-top-down-office-characters",
+      "source_type": "opengameart",
+      "source_url": "https://opengameart.org/content/2d-top-down-office-characters",
+      "license": "CC0",
+      "author": "BunnyHop43",
+      "acquired_at": "2026-11-24T20:35:02.064428+00:00",
+      "sha256": "0e8fff82a02747d04818e6c8fe761aa71433e2e3082061f35102864855018ffb",
+      "raw_files": [
+        {
+          "path": "2d_top_down_office_characters_0e8fff82/all_characters_0.png",
+          "width": 800,
+          "height": 669
+        }
+      ],
+      "status": "staged_for_upload",
+      "output_dir": "Build_Tool_Uploads/2d_top_down_office_characters",
+      "normalized_counts": {
+        "build_tool_ready": 2,
+        "needs_alpha_review": 0,
+        "animation_frames": 0,
+        "oversized_rejected": 3,
+        "duplicates_skipped": 0,
+        "raw_files_skipped": 0
+      },
+      "normalized_at": "2026-11-24T20:35:04.244406+00:00",
+      "curated_count": 2,
+      "staged_at": "2026-11-25T00:30:11.703536+00:00"
+    },
+    {
+      "id": "16x16_indoor_rpg_tileset_the_baseline-5c9c5d3d",
+      "pack_name": "16x16-indoor-rpg-tileset-the-baseline",
+      "source_type": "opengameart",
+      "source_url": "https://opengameart.org/content/16x16-indoor-rpg-tileset-the-baseline",
+      "license": "CC-BY-3.0",
+      "author": "Redshrike",
+      "acquired_at": "2026-11-24T20:35:03.465662+00:00",
+      "sha256": "5c9c5d3d988f3c74dd83e48ee975ba37afe579a6140db3f468e2ec4536360c76",
+      "raw_files": [
+        {
+          "path": "16x16_indoor_rpg_tileset_the_baseline_5c9c5d3d/16x16extratiles.PNG",
+          "width": 112,
+          "height": 64
+        },
+        {
+          "path": "16x16_indoor_rpg_tileset_the_baseline_5c9c5d3d/16x16extratiles_0.PNG",
+          "width": 112,
+          "height": 64
+        },
+        {
+          "path": "16x16_indoor_rpg_tileset_the_baseline_5c9c5d3d/tilesetformattedupdate1.png",
+          "width": 112,
+          "height": 192
+        },
+        {
+          "path": "16x16_indoor_rpg_tileset_the_baseline_5c9c5d3d/tilesetprev7.png",
+          "width": 192,
+          "height": 133
+        }
+      ],
+      "status": "staged_for_upload",
+      "output_dir": "Build_Tool_Uploads/16x16_indoor_rpg_tileset_the_baseline",
+      "normalized_counts": {
+        "build_tool_ready": 13,
+        "needs_alpha_review": 29,
+        "animation_frames": 0,
+        "oversized_rejected": 0,
+        "duplicates_skipped": 1,
+        "raw_files_skipped": 0
+      },
+      "normalized_at": "2026-11-24T20:35:04.294301+00:00",
+      "curated_count": 13,
+      "staged_at": "2026-11-25T00:30:11.703536+00:00"
+    },
+    {
+      "id": "rpg_indoor_tileset_expansion_1-4c38d6dd",
+      "pack_name": "rpg-indoor-tileset-expansion-1",
+      "source_type": "opengameart",
+      "source_url": "https://opengameart.org/content/rpg-indoor-tileset-expansion-1",
+      "license": "CC-BY-3.0",
+      "author": "Redshrike",
+      "acquired_at": "2026-11-24T20:35:03.502318+00:00",
+      "sha256": "4c38d6dd7a790ab374c816a6f6bb6120fd5ca92bf943642f3c3346ff5b663ad3",
+      "raw_files": [
+        {
+          "path": "rpg_indoor_tileset_expansion_1_4c38d6dd/rpg%20indoor%20tileset%20expansion%201%20trans.png",
+          "width": 176,
+          "height": 192
+        },
+        {
+          "path": "rpg_indoor_tileset_expansion_1_4c38d6dd/rpg%20indoor%20tileset%20expansion%201.PNG",
+          "width": 176,
+          "height": 192
+        },
+        {
+          "path": "rpg_indoor_tileset_expansion_1_4c38d6dd/tilesetexpansion%20previe.PNG",
+          "width": 64,
+          "height": 80
+        }
+      ],
+      "status": "staged_for_upload",
+      "output_dir": "Build_Tool_Uploads/rpg_indoor_tileset_expansion_1",
+      "normalized_counts": {
+        "build_tool_ready": 21,
+        "needs_alpha_review": 29,
+        "animation_frames": 0,
+        "oversized_rejected": 0,
+        "duplicates_skipped": 10,
+        "raw_files_skipped": 0
+      },
+      "normalized_at": "2026-11-24T20:35:04.313048+00:00",
+      "curated_count": 21,
+      "staged_at": "2026-11-25T00:30:11.703536+00:00"
+    },
+    {
+      "id": "frogs-545d2498",
+      "pack_name": "frogs",
+      "source_type": "local_pack",
+      "source_url": "local://frogs.zip",
+      "license": "local_unverified",
+      "author": "unknown",
+      "acquired_at": "2026-11-25T00:20:36.421137+00:00",
+      "sha256": "545d2498f6759013b701303e82a265128d79878ecc129305625aa3886a4a4084",
+      "raw_files": [
+        {
+          "path": "frogs_545d2498/frogs2/frog-1.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "frogs_545d2498/frogs2/frog-2.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "frogs_545d2498/frogs2/goldfrog_scroll_left.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "frogs_545d2498/frogs2/goldfrog_scroll_right.png",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "path": "frogs_545d2498/frogs2/reaper_finish1.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "frogs_545d2498/frogs2/reaper_finish2.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "frogs_545d2498/frogs2/reaper_idle.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "frogs_545d2498/frogs2/reaper_ready.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "frogs_545d2498/frogs2/reaper_smear.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "frogs_545d2498/frogs2/reaper_spritesheet.png",
+          "width": 320,
+          "height": 64
+        }
+      ],
+      "status": "staged_for_upload",
+      "output_dir": "Build_Tool_Uploads/frogs",
+      "normalized_counts": {
+        "build_tool_ready": 9,
+        "needs_alpha_review": 0,
+        "animation_frames": 0,
+        "oversized_rejected": 0,
+        "duplicates_skipped": 5,
+        "raw_files_skipped": 0
+      },
+      "normalized_at": "2026-11-25T00:20:45.969424+00:00",
+      "curated_count": 9,
+      "staged_at": "2026-11-25T00:30:11.703536+00:00"
+    },
+    {
+      "id": "bufo_core-48733fa7",
+      "pack_name": "bufo_core",
+      "source_type": "local_pack",
+      "source_url": "local://raw_sprites/bufo_core.zip",
+      "license": "local_unverified",
+      "author": "bufo.fun (tfritzy / all-the-bufo)",
+      "acquired_at": "2026-11-25T00:30:08.886094+00:00",
+      "sha256": "48733fa763e93d3a2e3db8a54f448b1e37800ceba1698212fbacfa2808e0c170",
+      "raw_files": [
+        {
+          "path": "bufo_core_48733fa7/bufo_core/bufo+1.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "bufo_core_48733fa7/bufo_core/bufo-ack.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "bufo_core_48733fa7/bufo_core/bufo-all-good.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "bufo_core_48733fa7/bufo_core/bufo-all-warm-and-fuzzy-inside.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "bufo_core_48733fa7/bufo_core/bufo-approve.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "bufo_core_48733fa7/bufo_core/bufo-awkward-smile.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "bufo_core_48733fa7/bufo_core/bufo-back-pat.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "bufo_core_48733fa7/bufo_core/bufo-blank-stare.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "bufo_core_48733fa7/bufo_core/bufo-bless-back.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "bufo_core_48733fa7/bufo_core/bufo-bless.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "bufo_core_48733fa7/bufo_core/bufo-brain.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "bufo_core_48733fa7/bufo_core/bufo-breakdown.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "bufo_core_48733fa7/bufo_core/bufo-chefkiss.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "bufo_core_48733fa7/bufo_core/bufo-coffee-happy.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "bufo_core_48733fa7/bufo_core/bufo-come-to-the-dark-side.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "bufo_core_48733fa7/bufo_core/bufo-concerned.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "bufo_core_48733fa7/bufo_core/bufo-cry-pray.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "bufo_core_48733fa7/bufo_core/bufo-drake-no.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "bufo_core_48733fa7/bufo_core/bufo-drake-yes.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "bufo_core_48733fa7/bufo_core/bufo-hands-on-hips-annoyed.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "bufo_core_48733fa7/bufo_core/bufo-hearts.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "bufo_core_48733fa7/bufo_core/bufo-melting.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "bufo_core_48733fa7/bufo_core/bufo-notification.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "bufo_core_48733fa7/bufo_core/bufo-sad.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "bufo_core_48733fa7/bufo_core/bufo-sweat.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "bufo_core_48733fa7/bufo_core/bufo-thinking.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "bufo_core_48733fa7/bufo_core/bufo-what-have-i-done.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "bufo_core_48733fa7/bufo_core/bufo-what-have-you-done.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "bufo_core_48733fa7/bufo_core/bufo-why-must-it-be-this-way.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "bufo_core_48733fa7/bufo_core/bufo-wut.png",
+          "width": 64,
+          "height": 64
+        },
+        {
+          "path": "bufo_core_48733fa7/bufo_core/you-have-exquisite-taste-in-bufo.png",
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "status": "staged_for_upload",
+      "output_dir": "Build_Tool_Uploads/bufo_core",
+      "normalized_counts": {
+        "build_tool_ready": 31,
+        "needs_alpha_review": 0,
+        "animation_frames": 0,
+        "oversized_rejected": 0,
+        "duplicates_skipped": 0,
+        "raw_files_skipped": 0
+      },
+      "normalized_at": "2026-11-25T00:30:11.465807+00:00",
+      "curated_count": 31,
+      "staged_at": "2026-11-25T00:30:11.703536+00:00"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+.venv/
+raw_sprites/
+logs/
+__pycache__/
+.DS_Store
+
+# Raw seed archives, unpacked seed directories, and bundle artifacts
+*.zip
+MegaPackFree/
+Pixel Art Icon Pack - RPG/
+Pixel Art Top Down - Basic v1.2.3/
+repomix-output.xml

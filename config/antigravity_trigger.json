@@ -1,0 +1,17 @@
+{
+  "name": "rayneta-gather-biweekly-sprite-drop",
+  "description": "Bi-weekly CC0/CC-BY themed sprite drop staged for Rayneta Gather review (no live map mutation).",
+  "cron": "0 9 1,15 * *",
+  "timezone": "America/Los_Angeles",
+  "workspace": "/Users/andrewbloom/Documents/Rayneta/Internal/Assets/Gather",
+  "command": ".venv/bin/python scripts/run_pipeline.py --rotate-next",
+  "safety_policy": {
+    "stage_only": true,
+    "auto_map_mutate": false,
+    "allowed_licenses": [
+      "CC0",
+      "CC-BY-3.0",
+      "CC-BY-4.0"
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "presets": [
+    {
+      "id": "cozy_office",
+      "label": "Cozy Plants & Cafe Office",
+      "queries": [
+        "top down office",
+        "desk furniture",
+        "indoor plants"
+      ],
+      "preferred_sources": [
+        "opengameart"
+      ],
+      "limit_per_query": 2,
+      "last_run_at": "2026-11-24T20:35:04.622765+00:00"
+    },
+    {
+      "id": "holiday_tavern",
+      "label": "Holiday Tavern & Lounge",
+      "queries": [
+        "tavern furniture",
+        "food and drink icons",
+        "candles lanterns"
+      ],
+      "preferred_sources": [
+        "opengameart"
+      ],
+      "limit_per_query": 2,
+      "last_run_at": null
+    },
+    {
+      "id": "cyberpunk_scifi",
+      "label": "Cyberpunk & Sci-Fi Desks",
+      "queries": [
+        "sci fi terminal",
+        "cyberpunk props",
+        "robot"
+      ],
+      "preferred_sources": [
+        "opengameart"
+      ],
+      "limit_per_query": 2,
+      "last_run_at": null
+    },
+    {
+      "id": "fantasy_tabletop",
+      "label": "Fantasy Tabletop Props",
+      "queries": [
+        "rpg chest crate",
+        "bookshelf scroll",
+        "potions"
+      ],
+      "preferred_sources": [
+        "opengameart"
+      ],
+      "limit_per_query": 2,
+      "last_run_at": null
+    }
+  ]
+}
