@@ -25,20 +25,27 @@ It supports two workflows:
 
 ---
 
-## Quick Start for Teammates (Importing into Gather)
+## Quick Start for Teammates (Sprite Shop & Gather Import)
 
-No Python environment is required if you only want to browse and upload already-staged sprites:
+No Python `.venv` or package install is required to shop for sprites and import them into Gather (`shop_app.py` uses Python's built-in standard library):
 
 1. **Clone or pull** the latest `main` branch:
    ```zsh
    git clone https://github.com/AMBloom/rayneta-gather-sprite-importer.git
    cd rayneta-gather-sprite-importer
    ```
-2. **Browse visually:** Open `gather_ready/preview_gallery.html` in any browser. Filter by bucket (`Build_Tool_Uploads` is selected by default), pack name, tile footprint (`1x1`, `2x2`, etc.), or filename search.
-3. **Check batch checklists:** Open `gather_ready/UPLOAD_GUIDE.md` for per-pack license attribution and batch contents.
+2. **Launch the Local Sprite Shop:**
+   ```zsh
+   python3 scripts/shop_app.py
+   ```
+   This starts a local server (`http://127.0.0.1:8765/preview_gallery.html`) and opens the **Sprite Shop** in your browser.
+3. **Shop & stage your picks:**
+   - Filter by bucket (`Build_Tool_Uploads` by default), pack (`bufo_core`, `frogs`, `MegaPackFree`, etc.), tile footprint (`1x1`, `2x2`), or search query.
+   - **Single sprite:** Click **Finder** on any card to highlight that exact `.png` in Finder, or **↓ PNG** to download it.
+   - **Multiple sprites:** Check the sprites you want (or click **Pick Visible (≤40)**), then click **Stage Picks & Open Finder** (copies your exact picks into `gather_ready/_my_picks/` and opens Finder) or **Download Cart (.zip)**.
 4. **Upload to Gather (`Customize → Build → Uploaded`):**
-   - **Full batches:** Drag and drop **one `gather_ready/Upload_Batches/batch_XX/` folder at a time** (capped at `40` PNGs per folder to avoid browser upload stalls).
-   - **Pick-and-choose:** Drag individual `.png` files directly from `gather_ready/Build_Tool_Uploads/<pack_slug>/`.
+   - Drag and drop the `.png` files from the opened Finder window (or from a `gather_ready/Upload_Batches/batch_XX/` folder, capped at `40` PNGs per folder) into Gather. *(Note: browsers block dragging `<img>` tags directly from one tab into Gather—use **Finder**, **Stage Picks & Open Finder**, or **↓ PNG** from your Downloads bar.)*
+   - Check [`gather_ready/UPLOAD_GUIDE.md`](gather_ready/UPLOAD_GUIDE.md) for per-pack license attribution and full batch checklists.
 
 > **Important Gather v1.39.2 Notes:**
 > - Sprites uploaded via **Build → Uploaded** are stored in **your personal account library** (not automatically shared across other admins' upload trays until placed on a map).
@@ -137,11 +144,12 @@ The pipeline runs in five stages:
 | `gather_ready/_needs_alpha_review/` | Opaque sprites (`alpha_min == 255`) needing background removal | Yes |
 | `gather_ready/_animation_frames/` | Secondary frames (`Frame 1..N`) from horizontal animation strips | Yes |
 | `gather_ready/_oversized_rejected/` | Sprites exceeding `256×256 px` (`8×8` tiles) | Yes |
-| `gather_ready/preview_gallery.html` | Self-contained offline HTML curation & preview gallery | Yes |
+| `gather_ready/preview_gallery.html` | Self-contained offline HTML Sprite Shop & curation gallery | Yes |
 | `gather_ready/UPLOAD_GUIDE.md` | Gather v1.39.2 import instructions, attribution, & checklists | Yes |
+| `gather_ready/_my_picks/` | Personal staged cart picks created by `shop_app.py` | **Ignored** |
 | `manifest.json` | Asset provenance, SHA-256 hashes, counts, and pipeline state | Yes |
 | `config/` | Theme rotation presets (`themes.json`) and schedule templates | Yes |
-| `scripts/` | Python CLI modules for Phases 2–5 | Yes |
+| `scripts/` | Python CLI modules for Phases 2–5 plus `shop_app.py` | Yes |
 | `skills/gather_sprite_importer/` | Antigravity `SKILL.md` operator definition | Yes |
 | `raw_sprites/` | Downloaded `.zip` contents and staged raw pack files | **Ignored** |
 | `logs/` | Pipeline logs and timestamped Gather map backups | **Ignored** |

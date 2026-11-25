@@ -517,15 +517,23 @@ def generate_preview_gallery(items: list[dict[str, Any]], logger: logging.Logger
 
         cards_html.append(
             f'<div class="card" data-bucket="{e_bucket}" data-pack="{e_pack}" '
-            f'data-tiles="{e_tiles}" data-name="{e_name.lower()}">'
-            f'<div class="thumb"><img src="{e_path}" alt="{e_name}" loading="lazy"></div>'
+            f'data-tiles="{e_tiles}" data-name="{e_name.lower()}" '
+            f'data-path="{e_path}" data-kb="{item["size_kb"]:.2f}">'
+            f'<div class="card-top">'
+            f'<label class="pick-label"><input type="checkbox" class="pick-checkbox" value="{e_path}"><span>Pick</span></label>'
+            f'<span class="badge tile">{e_tiles} ({dims})</span>'
+            f'</div>'
+            f'<div class="thumb"><img src="{e_path}" alt="{e_name}" loading="lazy" draggable="false"></div>'
             f'<div class="meta">'
             f'<div class="fname" title="{e_name}">{e_name}</div>'
             f'<div class="badges">'
-            f'<span class="badge tile">{e_tiles} tiles ({dims})</span>'
             f'<span class="badge bucket-{e_bucket}">{e_bucket}</span>'
             f'</div>'
             f'<div class="sub">{e_pack} · {e_lic} · {item["size_kb"]:.2f} KB</div>'
+            f'<div class="card-actions">'
+            f'<a class="action-btn" href="{e_path}" download="{e_name}">↓ PNG</a>'
+            f'<button type="button" class="action-btn btn-reveal" data-path="{e_path}" disabled title="Launch scripts/shop_app.py to reveal in Finder">Finder</button>'
+            f'</div>'
             f'</div></div>'
         )
 
@@ -541,23 +549,59 @@ def generate_preview_gallery(items: list[dict[str, Any]], logger: logging.Logger
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Rayneta Gather Sprite Curation Gallery</title>
+<title>Rayneta Gather Sprite Shop & Curation Gallery</title>
 <style>
-  :root {{ --bg: #0f172a; --panel: #1e293b; --border: #334155; --text: #f1f5f9; --muted: #94a3b8; --accent: #38bdf8; }}
+  :root {{ --bg: #0f172a; --panel: #1e293b; --border: #334155; --text: #f1f5f9; --muted: #94a3b8; --accent: #38bdf8; --ok: #22c55e; }}
   * {{ box-sizing: border-box; }}
-  body {{ margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: var(--bg); color: var(--text); }}
+  body {{ margin: 0; padding-bottom: 84px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: var(--bg); color: var(--text); }}
   header {{ position: sticky; top: 0; z-index: 10; background: var(--panel); border-bottom: 1px solid var(--border); padding: 14px 20px; }}
   h1 {{ margin: 0 0 10px 0; font-size: 18px; }}
   .controls {{ display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }}
   input, select {{ background: var(--bg); color: var(--text); border: 1px solid var(--border); border-radius: 6px; padding: 7px 10px; font-size: 13px; }}
   .bucket-bar {{ display: flex; flex-wrap: wrap; gap: 6px; }}
-  .filter-btn {{ background: var(--bg); color: var(--muted); border: 1px solid var(--border); border-radius: 6px; padding: 6px 10px; cursor: pointer; font-size: 12px; }}
+  .filter-btn, .util-btn {{ background: var(--bg); color: var(--muted); border: 1px solid var(--border); border-radius: 6px; padding: 6px 10px; cursor: pointer; font-size: 12px; }}
   .filter-btn.active {{ background: var(--accent); color: #082f49; border-color: var(--accent); font-weight: 600; }}
+  .util-btn {{ color: var(--text); }}
+  .util-btn:hover:not(:disabled) {{ border-color: var(--accent); }}
   .count {{ margin-left: auto; font-size: 13px; color: var(--muted); }}
-  main {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 14px; padding: 18px 20px; }}
-  .card {{ background: var(--panel); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; display: flex; flex-direction: column; }}
+  .mode-banner {{ margin-top: 10px; padding: 8px 12px; border-radius: 6px; font-size: 12px; background: #0f172a; border: 1px solid var(--border); color: var(--muted); display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }}
+  .mode-banner.is-connected {{ border-color: #166534; color: #bbf7d0; }}
+  .mode-banner code {{ color: var(--accent); font-family: ui-monospace, SFMono-Regular, monospace; }}
+  main {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 14px; padding: 18px 20px; }}
+  .card {{
+    --card-bg: var(--panel);
+    --card-border: var(--border);
+    background: var(--card-bg);
+    border: 2px solid var(--card-border);
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: border-color 140ms ease, background-color 140ms ease;
+  }}
+  .card:nth-child(n+25) {{
+    content-visibility: auto;
+    contain-intrinsic-size: auto none auto 270px;
+  }}
+  .card:has(.pick-checkbox:checked) {{
+    --card-bg: #172554;
+    --card-border: var(--accent);
+  }}
+  @supports not selector(:has(*)) {{
+    .card.is-selected {{
+      --card-bg: #172554;
+      --card-border: var(--accent);
+    }}
+  }}
   .card.hidden {{ display: none; }}
-  .thumb {{ height: 140px; display: flex; align-items: center; justify-content: center; padding: 10px;
+  .card-top {{ display: flex; align-items: center; justify-content: space-between; padding: 2px 10px 2px 6px; border-bottom: 1px solid var(--border); gap: 6px; }}
+  .pick-label {{ display: inline-flex; align-items: center; gap: 6px; min-block-size: 44px; min-inline-size: 44px; padding: 0 4px; cursor: pointer; font-size: 12px; color: var(--text); user-select: none; }}
+  .pick-checkbox {{ accent-color: var(--accent); inline-size: 1.15em; aspect-ratio: 1; margin: 0; cursor: pointer; }}
+  .pick-checkbox:focus-visible, .action-btn:focus-visible, .filter-btn:focus-visible, .util-btn:focus-visible, .cart-btn:focus-visible {{
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }}
+  .thumb {{ height: 132px; display: flex; align-items: center; justify-content: center; padding: 10px; cursor: pointer;
     background-color: #cbd5e1;
     background-image: linear-gradient(45deg, #94a3b8 25%, transparent 25%),
       linear-gradient(-45deg, #94a3b8 25%, transparent 25%),
@@ -566,7 +610,7 @@ def generate_preview_gallery(items: list[dict[str, Any]], logger: logging.Logger
     background-size: 16px 16px;
     background-position: 0 0, 0 8px, 8px -8px, -8px 0; }}
   .thumb img {{ max-width: 100%; max-height: 100%; image-rendering: pixelated; }}
-  .meta {{ padding: 10px; font-size: 12px; display: flex; flex-direction: column; gap: 6px; }}
+  .meta {{ padding: 10px; font-size: 12px; display: flex; flex-direction: column; gap: 6px; flex: 1; }}
   .fname {{ font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }}
   .badges {{ display: flex; flex-wrap: wrap; gap: 4px; }}
   .badge {{ padding: 2px 6px; border-radius: 4px; font-size: 11px; background: #0f172a; border: 1px solid var(--border); }}
@@ -576,28 +620,196 @@ def generate_preview_gallery(items: list[dict[str, Any]], logger: logging.Logger
   .badge.bucket-_animation_frames {{ color: #c4b5fd; }}
   .badge.bucket-_oversized_rejected {{ color: #fca5a5; }}
   .sub {{ color: var(--muted); font-size: 11px; }}
+  .card-actions {{ display: flex; gap: 6px; margin-top: auto; padding-top: 4px; }}
+  .action-btn {{ flex: 1; text-align: center; text-decoration: none; background: var(--bg); color: var(--text); border: 1px solid var(--border); border-radius: 6px; padding: 6px 8px; font-size: 11px; cursor: pointer; font-weight: 500; }}
+  .action-btn:hover:not(:disabled) {{ border-color: var(--accent); color: var(--accent); }}
+  .action-btn:disabled {{ opacity: 0.45; cursor: not-allowed; }}
+  .cart-bar {{ position: fixed; inset: auto 0 0 0; z-index: 20; background: #0b1220; border-top: 1px solid var(--border); padding: 10px 20px; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }}
+  .cart-summary {{ font-size: 13px; font-weight: 600; }}
+  .cart-hint {{ font-size: 12px; color: var(--muted); }}
+  .cart-hint.warn {{ color: #fde047; }}
+  .cart-actions {{ margin-left: auto; display: flex; flex-wrap: wrap; gap: 8px; }}
+  .cart-btn {{ background: var(--panel); color: var(--text); border: 1px solid var(--border); border-radius: 6px; padding: 8px 12px; font-size: 12px; font-weight: 600; cursor: pointer; }}
+  .cart-btn.primary {{ background: var(--accent); color: #082f49; border-color: var(--accent); }}
+  .cart-btn:disabled {{ opacity: 0.45; cursor: not-allowed; }}
+  .toast-region {{ position: fixed; top: 16px; right: 16px; z-index: 50; pointer-events: none; }}
+  .shop-toast {{ pointer-events: auto; position: fixed; inset: auto 20px 72px auto; margin: 0; background: #0f172a; color: var(--text); border: 1px solid var(--accent); border-radius: 8px; padding: 10px 14px; font-size: 13px; max-width: 420px; box-shadow: 0 10px 30px rgba(0,0,0,0.45); display: none; gap: 12px; align-items: center; opacity: 0; transition: opacity 160ms ease; transition-behavior: allow-discrete; }}
+  .shop-toast:is(:popover-open, .\\:popover-open, .is-open) {{ display: flex; opacity: 1; }}
+  @supports not selector(:popover-open) {{
+    [popover]:not(.\\:popover-open):not(.is-open) {{ display: none; }}
+  }}
+  @media (prefers-reduced-motion: reduce) {{
+    .card, .shop-toast {{ transition: none; }}
+  }}
+  .toast-close {{ background: transparent; color: var(--muted); border: 1px solid var(--border); border-radius: 4px; padding: 4px 8px; cursor: pointer; font-size: 11px; }}
+  .sr-only {{ position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }}
 </style>
 </head>
 <body>
 <header>
-  <h1>Rayneta Gather Sprite Curation Gallery (v1.39.2 · 32px Grid)</h1>
+  <h1>Rayneta Gather Sprite Shop & Curation Gallery (v1.39.2 · 32px Grid)</h1>
   <div class="controls">
     <div class="bucket-bar">{bucket_btns}</div>
-    <input id="search" type="search" placeholder="Search filename...">
+    <input id="search" type="search" placeholder="Search filename or pack...">
     <select id="packFilter"><option value="ALL">All Packs</option>{pack_opts}</select>
     <select id="tileFilter"><option value="ALL">All Tile Sizes</option>{tile_opts}</select>
+    <button type="button" class="util-btn" id="selectVisibleBtn">Pick Visible (≤40)</button>
+    <button type="button" class="util-btn" id="clearCartBtn">Clear Picks</button>
     <span class="count" id="visibleCount"></span>
+  </div>
+  <div class="mode-banner" id="modeBanner">
+    <span><strong>How to import into Gather:</strong> Browsers block dragging <code>&lt;img&gt;</code> tags between tabs. Click <strong>↓ PNG</strong> to download a single sprite, or run <code>python3 scripts/shop_app.py</code> for 1-click <strong>Reveal in Finder</strong>, <strong>Stage Picks &amp; Open Folder</strong>, and <strong>Download Cart (.zip)</strong>.</span>
   </div>
 </header>
 <main id="grid">{"".join(cards_html)}</main>
+<div class="cart-bar" id="cartBar">
+  <span class="cart-summary" id="cartSummary">Cart: 0 sprites (0.0 KB)</span>
+  <span class="cart-hint" id="cartHint">Pick sprites above to stage a Finder folder or download a ZIP.</span>
+  <div class="cart-actions">
+    <button type="button" class="cart-btn" id="downloadZipBtn" disabled>Download Cart (.zip)</button>
+    <button type="button" class="cart-btn primary" id="stagePicksBtn" disabled>Stage Picks &amp; Open Finder</button>
+  </div>
+</div>
+<div class="toast-region" role="region" aria-label="Notifications">
+  <div id="shopToast" class="shop-toast" popover="manual">
+    <span id="toastMsg"></span>
+    <button type="button" class="toast-close" popovertarget="shopToast" popovertargetaction="hide" id="toastCloseBtn">Close</button>
+  </div>
+</div>
+<p class="sr-only">Screen reader announcements</p>
+<div id="ariaLiveFallback" class="sr-only" aria-live="polite"></div>
 <script>
 (function() {{
   let activeBucket = "{BUCKET_BUILD}";
+  let serverConnected = false;
+  let toastTimer = null;
+  const STORAGE_KEY = "rayneta_gather_cart_v1";
+  const hasCssSelectorSupport = typeof CSS !== "undefined" && CSS.supports("selector(:has(*))");
+  const hasPopoverSupport = Object.hasOwn(HTMLElement.prototype, "popover");
+
   const cards = Array.from(document.querySelectorAll(".card"));
   const searchEl = document.getElementById("search");
   const packEl = document.getElementById("packFilter");
   const tileEl = document.getElementById("tileFilter");
   const countEl = document.getElementById("visibleCount");
+  const modeBanner = document.getElementById("modeBanner");
+  const cartSummary = document.getElementById("cartSummary");
+  const cartHint = document.getElementById("cartHint");
+  const stagePicksBtn = document.getElementById("stagePicksBtn");
+  const downloadZipBtn = document.getElementById("downloadZipBtn");
+  const selectVisibleBtn = document.getElementById("selectVisibleBtn");
+  const clearCartBtn = document.getElementById("clearCartBtn");
+  const toastEl = document.getElementById("shopToast");
+  const toastMsg = document.getElementById("toastMsg");
+  const toastCloseBtn = document.getElementById("toastCloseBtn");
+  const ariaLiveEl = document.getElementById("ariaLiveFallback");
+
+  const cardByPath = new Map();
+  for (const c of cards) {{
+    cardByPath.set(c.dataset.path, c);
+  }}
+
+  const cart = new Set();
+  try {{
+    const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]");
+    if (Array.isArray(saved)) {{
+      for (const p of saved) {{
+        if (cardByPath.has(p)) cart.add(p);
+      }}
+    }}
+  }} catch (_) {{}}
+
+  function saveCart() {{
+    try {{
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(Array.from(cart)));
+    }} catch (_) {{}}
+  }}
+
+  function announce(text) {{
+    if (typeof document.ariaNotify === "function") {{
+      document.ariaNotify(text);
+    }} else {{
+      ariaLiveEl.textContent = "";
+      requestAnimationFrame(() => {{ ariaLiveEl.textContent = text; }});
+    }}
+  }}
+
+  function showToast(text) {{
+    toastMsg.textContent = text;
+    if (hasPopoverSupport) {{
+      if (!toastEl.matches(":popover-open")) toastEl.showPopover();
+    }} else {{
+      toastEl.classList.add("is-open");
+    }}
+    announce(text);
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => {{
+      if (document.activeElement === toastCloseBtn) return;
+      hideToast();
+    }}, 4500);
+  }}
+
+  function hideToast() {{
+    clearTimeout(toastTimer);
+    if (hasPopoverSupport) {{
+      if (toastEl.matches(":popover-open")) toastEl.hidePopover();
+    }} else {{
+      toastEl.classList.remove("is-open");
+    }}
+  }}
+
+  toastCloseBtn.addEventListener("click", () => {{
+    if (!hasPopoverSupport) hideToast();
+  }});
+
+  function syncCardUI(card, checked) {{
+    const cb = card.querySelector(".pick-checkbox");
+    cb.checked = checked;
+    if (!hasCssSelectorSupport) {{
+      card.classList.toggle("is-selected", checked);
+    }}
+  }}
+
+  function updateCartUI() {{
+    let totalKb = 0;
+    for (const p of cart) {{
+      const c = cardByPath.get(p);
+      if (c) totalKb += parseFloat(c.dataset.kb || "0");
+    }}
+    const count = cart.size;
+    cartSummary.textContent = "Cart: " + count + " sprite" + (count === 1 ? "" : "s") + " (" + totalKb.toFixed(1) + " KB)";
+    if (count === 0) {{
+      cartHint.textContent = "Pick sprites above to stage a Finder folder or download a ZIP.";
+      cartHint.classList.remove("warn");
+    }} else if (count > 40) {{
+      cartHint.textContent = "Note: >40 sprites will be split into 40-file batch subfolders for Gather.";
+      cartHint.classList.add("warn");
+    }} else {{
+      cartHint.textContent = "Ready to drag straight into Gather Customize → Build → Uploaded.";
+      cartHint.classList.remove("warn");
+    }}
+    stagePicksBtn.disabled = !serverConnected || count === 0;
+    downloadZipBtn.disabled = !serverConnected || count === 0;
+    saveCart();
+  }}
+
+  for (const card of cards) {{
+    const path = card.dataset.path;
+    const cb = card.querySelector(".pick-checkbox");
+    if (cart.has(path)) syncCardUI(card, true);
+
+    cb.addEventListener("change", () => {{
+      if (cb.checked) cart.add(path);
+      else cart.delete(path);
+      syncCardUI(card, cb.checked);
+      updateCartUI();
+    }});
+
+    card.querySelector(".thumb").addEventListener("click", () => {{
+      cb.checked = !cb.checked;
+      cb.dispatchEvent(new Event("change"));
+    }});
+  }}
 
   function applyFilters() {{
     const q = searchEl.value.trim().toLowerCase();
@@ -627,7 +839,118 @@ def generate_preview_gallery(items: list[dict[str, Any]], logger: logging.Logger
   searchEl.addEventListener("input", applyFilters);
   packEl.addEventListener("change", applyFilters);
   tileEl.addEventListener("change", applyFilters);
+
+  selectVisibleBtn.addEventListener("click", () => {{
+    let added = 0;
+    for (const c of cards) {{
+      if (c.classList.contains("hidden")) continue;
+      if (added >= 40) break;
+      const p = c.dataset.path;
+      if (!cart.has(p)) {{
+        cart.add(p);
+        syncCardUI(c, true);
+        added++;
+      }}
+    }}
+    updateCartUI();
+    showToast(added > 0 ? ("Added " + added + " visible sprite(s) to cart.") : "All visible sprites (up to 40) are already in cart.");
+  }});
+
+  clearCartBtn.addEventListener("click", () => {{
+    cart.clear();
+    for (const c of cards) syncCardUI(c, false);
+    updateCartUI();
+    showToast("Cleared sprite cart.");
+  }});
+
+  document.getElementById("grid").addEventListener("click", async (e) => {{
+    const btn = e.target.closest(".btn-reveal");
+    if (!btn || btn.disabled) return;
+    try {{
+      const res = await fetch("/api/reveal", {{
+        method: "POST",
+        headers: {{ "Content-Type": "application/json" }},
+        body: JSON.stringify({{ rel_path: btn.dataset.path }})
+      }});
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || "Reveal failed");
+      showToast("Revealed in Finder: " + data.revealed.split("/").pop());
+    }} catch (err) {{
+      showToast("Reveal failed: " + err.message);
+    }}
+  }});
+
+  stagePicksBtn.addEventListener("click", async () => {{
+    if (!serverConnected || cart.size === 0) return;
+    stagePicksBtn.disabled = true;
+    try {{
+      const res = await fetch("/api/stage-picks", {{
+        method: "POST",
+        headers: {{ "Content-Type": "application/json" }},
+        body: JSON.stringify({{ rel_paths: Array.from(cart) }})
+      }});
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || "Staging failed");
+      showToast("Staged " + data.count + " sprite(s) into gather_ready/" + data.folder + " and opened Finder.");
+    }} catch (err) {{
+      showToast("Staging failed: " + err.message);
+    }} finally {{
+      updateCartUI();
+    }}
+  }});
+
+  downloadZipBtn.addEventListener("click", async () => {{
+    if (!serverConnected || cart.size === 0) return;
+    downloadZipBtn.disabled = true;
+    try {{
+      const res = await fetch("/api/download-zip", {{
+        method: "POST",
+        headers: {{ "Content-Type": "application/json" }},
+        body: JSON.stringify({{ rel_paths: Array.from(cart) }})
+      }});
+      if (!res.ok) {{
+        const data = await res.json().catch(() => ({{}}));
+        throw new Error(data.error || "ZIP download failed");
+      }}
+      const blob = await res.blob();
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "gather_sprite_picks.zip";
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+      showToast("Downloaded gather_sprite_picks.zip (" + cart.size + " sprites).");
+    }} catch (err) {{
+      showToast("ZIP failed: " + err.message);
+    }} finally {{
+      updateCartUI();
+    }}
+  }});
+
+  async function detectShopServer() {{
+    if (window.location.protocol !== "http:" && window.location.protocol !== "https:") return;
+    try {{
+      const res = await fetch("/api/health", {{ cache: "no-store" }});
+      if (!res.ok) return;
+      const info = await res.json();
+      if (info && info.ok) {{
+        serverConnected = true;
+        document.querySelectorAll(".btn-reveal").forEach(b => {{
+          b.disabled = false;
+          b.title = "Reveal PNG in Finder";
+        }});
+        modeBanner.classList.add("is-connected");
+        modeBanner.innerHTML = "<span><strong>Sprite Shop connected:</strong> Click <strong>Finder</strong> on any card to highlight its PNG, or pick multiple sprites and click <strong>Stage Picks &amp; Open Finder</strong> to drag straight into Gather.</span>";
+        updateCartUI();
+      }}
+    }} catch (_) {{}}
+  }}
+
   applyFilters();
+  updateCartUI();
+  detectShopServer();
 }})();
 </script>
 </body>

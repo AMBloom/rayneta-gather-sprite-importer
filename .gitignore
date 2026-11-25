@@ -3,6 +3,7 @@ raw_sprites/
 logs/
 __pycache__/
 .DS_Store
+gather_ready/_my_picks/
 
 # Raw seed archives, unpacked seed directories, and bundle artifacts
 *.zip
