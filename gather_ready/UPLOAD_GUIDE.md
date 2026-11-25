@@ -1,6 +1,6 @@
 # Rayneta Gather Sprite Upload Guide (v1.39.2)
 
-*Generated: 2026-11-25 00:30 UTC · Total Staged Sprites: **860** across **22** batch(es) (max 40 per batch)*
+*Generated: 2026-11-25 01:20 UTC · Total Staged Sprites: **860** across **22** batch(es) (max 40 per batch)*
 
 ## Gather v1.39.2 Import Instructions (`Customize → Build → Uploaded`)
 
